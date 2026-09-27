@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ServerMap\ExploredMap.cs" Link="ExploredMap.cs" />
+    <Compile Include="..\ServerMap\ByteChunks.cs" Link="ByteChunks.cs" />
+    <Compile Include="..\ServerMap\MarkerBook.cs" Link="MarkerBook.cs" />
+    <Compile Include="..\ServerMap\TableBlob.cs" Link="TableBlob.cs" />
+    <Compile Include="..\ServerMap\OverlayRules.cs" Link="OverlayRules.cs" />
+    <Compile Include="..\ServerMap\MapFiles.cs" Link="MapFiles.cs" />
+    <Compile Include="..\ServerMap\ChunkBox.cs" Link="ChunkBox.cs" />
+    <Compile Include="..\ServerMap\OverlayDelta.cs" Link="OverlayDelta.cs" />
+  </ItemGroup>
+</Project>

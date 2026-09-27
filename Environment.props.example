@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <VALHEIM_INSTALL>C:\Path\To\Valheim</VALHEIM_INSTALL>
+    <VALHEIM_MANAGED>C:\Path\To\Valheim\valheim_Data\Managed</VALHEIM_MANAGED>
+    <BEPINEX_PATH>C:\Path\To\Valheim\BepInEx</BEPINEX_PATH>
+    <MOD_DEPLOYPATH>C:\Path\To\Valheim\BepInEx\plugins</MOD_DEPLOYPATH>
+  </PropertyGroup>
+</Project>

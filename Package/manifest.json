@@ -1,0 +1,9 @@
+{
+  "name": "FrizzQOL_ServerMap",
+  "version_number": "0.1.0",
+  "website_url": "",
+  "description": "Shared server map for explored ground, markers, buildings, paths, and forest.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202"
+  ]
+}

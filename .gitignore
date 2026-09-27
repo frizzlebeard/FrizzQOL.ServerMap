@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+Environment.props
+Thumbs.db
+.DS_Store
