@@ -61,16 +61,10 @@ The plugin file is `FrizzQOL.ServerMap.dll`, under the project `bin\Release\net4
 
 `Environment.props` stays on your machine. It is listed in `.gitignore`.
 
-## Publishing
+## Source
 
-This folder is ready to push as its own public repository. Create an empty GitHub repo named `FrizzQOL.ServerMap`. Do not add a README, license, or gitignore on GitHub. Those files are already here. Then run:
+https://github.com/frizzlebeard/FrizzQOL.ServerMap
 
-```
-git remote add origin https://github.com/<you>/FrizzQOL.ServerMap.git
-git push -u origin main
-```
-
-Set `website_url` in `Package/manifest.json` to that repository before the Thunderstore upload.
 
 ## Thunderstore package
 

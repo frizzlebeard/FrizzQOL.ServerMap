@@ -32,6 +32,10 @@ Color settings are in the same file.
 
 Install the dll on the dedicated server and on every client. In a hosted game, the hosting player is the server.
 
+## Source
+
+https://github.com/frizzlebeard/FrizzQOL.ServerMap
+
 ## Install
 
 Install with r2modman or the Thunderstore Mod Manager.
