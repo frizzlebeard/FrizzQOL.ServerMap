@@ -64,19 +64,3 @@ The plugin file is `FrizzQOL.ServerMap.dll`, under the project `bin\Release\net4
 ## Source
 
 https://github.com/frizzlebeard/FrizzQOL.ServerMap
-
-
-## Thunderstore package
-
-A valid upload is a zip whose root contains `icon.png`, `README.md`, and `manifest.json`. `CHANGELOG.md` is optional and is included here. Copy `FrizzQOL.ServerMap.dll` from the Release build into `Package`, then zip the files themselves. Do not zip the `Package` folder. If the files sit inside a folder in the zip, Thunderstore rejects the package.
-
-- `manifest.json`
-- `README.md`
-- `CHANGELOG.md`
-- `icon.png`
-- `LICENSE`
-- `FrizzQOL.ServerMap.dll`
-
-The dll belongs at the zip root. The mod manager installs those files under `BepInEx/plugins/<Team>-<PackageName>/`.
-
-Before you upload, check the package readme in the [markdown preview](https://thunderstore.io/tools/markdown-preview/) and the manifest in the [manifest validator](https://thunderstore.io/tools/manifest-v1-validator/). The package rules are in [Creating a Package](https://wiki.thunderstore.io/mods/creating-a-package).
